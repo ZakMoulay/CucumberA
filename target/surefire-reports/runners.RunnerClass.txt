@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.73 s <<< FAILURE! -- in runners.RunnerClass
+Login related scenarios.valid ess login1 -- Time elapsed: 13.18 s <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at steps.LoginSteps.user_enters_ess_username_and_password(LoginSteps.java:68)
+	at ✽.user enters ess username and password(file:///Users/zakariamoulayrchid/Documents/SeleniumProjects/Cucumber/src/test/resources/features/Login.feature:17)
+
